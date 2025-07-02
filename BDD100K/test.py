@@ -18,7 +18,7 @@ loss_fn = ComputeLoss()
 '''loaded_checkpoint = load_checkpoint()
 if loaded_checkpoint is not None:
     model_test.load_state_dict(loaded_checkpoint["model_state_dict"])'''
-best_model = torch.load("/raid/cs21resch15003/Afeef_Intern/CustomModel_BDD100K/best_model.pt")
+best_model = torch.load(".....")
 model_test.load_state_dict(best_model)
 stats, ap = [], []
 seen = 0
